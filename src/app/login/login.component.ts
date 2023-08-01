@@ -20,7 +20,7 @@ errorMessage:string="";
     console.log(this.userName);
     console.log(this.password);
 
-let res = this.http.get(
+/*let res = this.http.get(
 "http://localhost:1234/checkUser?userName="+
 this.userName+"&password="+this.password);
     res.subscribe(
@@ -30,7 +30,8 @@ this.userName+"&password="+this.password);
     this.router.navigate(["/home"]);
     else{
       this.errorMessage="Credentials Are Not Good";
-    }
+    }*/
+    this.router.navigate(["/home"]);
 
   }
 
